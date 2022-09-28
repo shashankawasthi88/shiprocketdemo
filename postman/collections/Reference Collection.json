@@ -22,13 +22,14 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
+					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId/update",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
 						"spacecrafts",
-						":spacecraftId"
+						":spacecraftId",
+						"update"
 					],
 					"variable": [
 						{
@@ -164,6 +165,24 @@
 					"body": "{\n  \"message\": \"dolore ipsum velit mollit\"\n}"
 				}
 			]
+		},
+		{
+			"name": "New Request",
+			"id": "22db8a29-b43e-4b38-bfa8-86b01efc1c04",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "/newrequerst",
+					"path": [
+						"newrequerst"
+					]
+				}
+			},
+			"response": []
 		}
 	],
 	"auth": {
