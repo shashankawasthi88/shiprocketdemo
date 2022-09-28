@@ -1,0 +1,16 @@
+id = 1be3c1e6-bb3c-451e-98c7-2efcc5e7ccc1
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+files[] = {"id":"23234629-82694bec-f3ed-415d-b725-c371143f8a05","path":"Reference Collection.json","metaData":{}}
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"index.json","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = openapi:3
